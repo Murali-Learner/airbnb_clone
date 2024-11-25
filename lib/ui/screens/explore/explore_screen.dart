@@ -17,7 +17,7 @@ class Explore extends StatelessWidget {
           children: [
             SearchField(),
             Expanded(child: Tabs()),
-            Expanded(flex: 8, child: DestinationsWidget()),
+            Expanded(flex: 7, child: DestinationsWidget()),
           ],
         ),
       ),

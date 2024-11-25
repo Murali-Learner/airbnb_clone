@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Airbnb UI',
         theme: ThemeData(fontFamily: 'AirbnbCereal'),
-        home: AuthScreen(),
+        home: const AuthScreen(),
       ),
     );
   }

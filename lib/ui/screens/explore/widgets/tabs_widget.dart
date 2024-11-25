@@ -52,8 +52,8 @@ class _TabsState extends State<Tabs> with SingleTickerProviderStateMixin {
         return Tab(
           icon: Image.asset(
             tab.imageUrl,
-            height: 30,
-            width: 30,
+            height: 25,
+            width: 25,
             color: _tabController.index == tabs.indexOf(tab)
                 ? ColorConstants.blackColor
                 : ColorConstants.greyColor,
